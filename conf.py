@@ -15,6 +15,7 @@
 import sys
 import os
 #import sphinx_bootstrap_theme
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -197,11 +198,13 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto/manual]).
-latex_documents = [
-  ('index', 'Manual_Del_Estudiante.tex', u'Manual\\_Del\\_estudiante Documentation',
-   u'Jhymer Martínez', 'manual'),
-]
 
+###################
+#latex_documents = [
+#  ('index', 'Manual_Del_Estudiante.tex', u'Manual\\_Del\\_estudiante Documentation',
+#   u'Jhymer Martínez', 'manual'),
+#]
+###################
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
 #latex_logo = None
@@ -222,8 +225,13 @@ latex_documents = [
 # If false, no module index is generated.
 #latex_domain_indices = True
 
-pdf_documents = [('index', u'Manual_Del_Estudiante',
-u'Manual del Estudiante', u'Jhymer Martínez'),]
+##################
+
+#pdf_documents = [('index', u'Manual_Del_Estudiante',
+#u'Manual del Estudiante', u'Jhymer Martínez'),]
+
+###################
+
 # -- Options for manual page output ---------------------------------------
 
 # One entry per manual page. List of tuples
