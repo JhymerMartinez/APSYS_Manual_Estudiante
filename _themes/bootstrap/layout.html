@@ -97,7 +97,12 @@
 
 {# Silence the sidebar's, relbar's #}
 {% block header %}{% endblock %}
-{% block relbar1 %}{% endblock %}
+{% block relbar1 %}
+<link rel="stylesheet" href="{{pathto("_static/style.css", 1) }}">
+<div id="cabecera">
+  <img src="{{pathto("_static/unl.gif", 1) }}" id="logo" border="0" alt="unl" width="90" height="95"/>
+</div>
+{% endblock %}
 {% block relbar2 %}{% endblock %}
 {% block sidebarsourcelink %}{% endblock %}
 
