@@ -1,0 +1,210 @@
+
+  
+  
+ 
+  
+  
+ 
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Administrar materias &mdash; Manual del estudiante  documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/bootstrap-3.0.0/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/bootstrap-3.0.0/css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="Manual del estudiante  documentation" href="../../index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+<link rel="stylesheet" href="../../_static/style.css">
+<div id="cabecera">
+  <img src="../../_static/unl.gif" id="logo" border="0" alt="unl" width="90" height="95"/>
+</div>
+
+
+  <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">Manual del estudiante</a>
+        <!--<span class="navbar-text navbar-version pull-left"><b>1.0</b></span>-->
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a href="../../index.html"
+     class="dropdown-toggle"
+     data-toggle="dropdown">Indice General<b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+    ><ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">1. Introducción</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../SystemAccess/systemAccess.html">2. Acceso al sistema</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../SelectModule/selectModule.html">3. Seleccionar módulo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../GenerateGraph/generateGraph.html">4. Generación de gráficas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../QualificationDetail/qualificationDetail.html">5. Calificaciones y promedios finales</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">En esta Página<b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">Administrar materias</a><ul>
+<li><a class="reference internal" href="#recuperar-materias-almacenadas">Recuperar materias almacenadas</a></li>
+<li><a class="reference internal" href="#opciones-por-materia">Opciones por materia</a><ul>
+<li><a class="reference internal" href="#opcion-calificar">Opción Calificar</a></li>
+<li><a class="reference internal" href="#opcion-detalle-promedios">Opción Detalle / Promedios</a></li>
+<li><a class="reference internal" href="#opcion-configuracion">Opción Configuración</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+              
+            
+            
+            
+
+            <!--
+            
+              <li>
+  <a href="../../_sources/library/AdminMatter/adminMatter.txt"
+     rel="nofollow">Ver código</a></li>
+            
+            -->
+          </ul>
+        
+         
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Buscar" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <div class="section" id="administrar-materias">
+<span id="adminmatter-title"></span><h1>Administrar materias<a class="headerlink" href="#administrar-materias" title="Permalink to this headline">¶</a></h1>
+<p>Una vez recuperada la información de las materias y los estudiantes a los que imparte clases el docente (<em class="xref std std-ref">addMatter-title</em>) se presenta el sitio administrativo que se detalla en los siguientes puntos.</p>
+<div class="section" id="recuperar-materias-almacenadas">
+<span id="adminmatter-getmatters"></span><h2>Recuperar materias almacenadas<a class="headerlink" href="#recuperar-materias-almacenadas" title="Permalink to this headline">¶</a></h2>
+<p>Para recuperar la información se procede a filtrar la misma haciendo uso del formulario ubicado en la parte izquierda de la tabla de datos principal y que se aprecia a continuación:</p>
+<div class="align-center figure" id="adminmatter-img-adminmatter-form-return-matter">
+<img alt="Filtrado de materias" src="library\AdminMatter\../../_static/AdminMatter/adminMatter_form_return_matter.png" />
+<p class="caption"><strong>Formulario para filtrado de materias</strong></p>
+</div>
+<p>Una vez seleccionados los parámetros de búsqueda se procede a hacer clic en el botón <strong>Recuperar datos</strong></p>
+<div class="align-center figure" id="adminmatter-img-adminmatter-btn-return">
+<img alt="Opción para recuperar datos" src="library\AdminMatter\../../_static/AdminMatter/adminMatter_btn_return.png" />
+<p class="caption"><strong>Opción para recuperar datos</strong></p>
+</div>
+<p>Una vez hecho esto se devolverá las materia y toda la información que coincida con los datos de partida seleccionados. En la imagen siguiente se detalla un poco mejor el proceso a realizar.</p>
+<div class="align-center figure" id="adminmatter-img-adminmatter-all">
+<img alt="Proceso detallado" src="library\AdminMatter\../../_static/AdminMatter/adminMatter_all.png" />
+<p class="caption"><strong>Proceso detallado</strong></p>
+</div>
+</div>
+<div class="section" id="opciones-por-materia">
+<span id="adminmatter-options"></span><h2>Opciones por materia<a class="headerlink" href="#opciones-por-materia" title="Permalink to this headline">¶</a></h2>
+<p>Cada materia que muestra en la tabla, cuenta con 3 opciones que permiten realizar distintas operaciones</p>
+<div class="align-center figure" id="adminmatter-img-adminmatter-options">
+<img alt="Opciones para cada materia" src="library\AdminMatter\../../_static/AdminMatter/adminMatter_options.png" />
+<p class="caption"><strong>Opciones para cada materia</strong></p>
+</div>
+<p>Dichas opciones se detallan en los siguientes apartados</p>
+<div class="section" id="opcion-calificar">
+<span id="adminmatter-options-qualify"></span><h3>Opción Calificar<a class="headerlink" href="#opcion-calificar" title="Permalink to this headline">¶</a></h3>
+<p>Esta opción abarca lo concerniente a la administración de calificaciones de los estudiantes, es decir operaciones como la agregación, edición y eliminación de notas a más de otros aspectos como la generación de promedios parciales entre otros aspectos.</p>
+<p>Todo este proceso se explica a detalle en el apartado <em class="xref std std-ref">optionQualify-title</em>.</p>
+</div>
+<div class="section" id="opcion-detalle-promedios">
+<span id="adminmatter-options-detail-average"></span><h3>Opción Detalle / Promedios<a class="headerlink" href="#opcion-detalle-promedios" title="Permalink to this headline">¶</a></h3>
+<p>Dentro de esta opción se realizan dos procesos fundamentales que son la presentación detallada de calificaciones de los estudiantes y la generación de promedios finales en la materia.</p>
+<p>Su explicación detalla se presenta en los apartados <em class="xref std std-ref">optionAverage-title</em>.</p>
+</div>
+<div class="section" id="opcion-configuracion">
+<span id="adminmatter-options-configuration"></span><h3>Opción Configuración<a class="headerlink" href="#opcion-configuracion" title="Permalink to this headline">¶</a></h3>
+<p>En esta opción se realiza el proceso de configuración de los parámetros a evaluar y sus respectivos pesos (porcentajes) con relación a la calificación final.</p>
+<p>Se explica detalladamente este aspecto en el apartado <em class="xref std std-ref">optionConfiguration-title</em>.</p>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Regresar a la cabecera</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014, Jhymer Martínez.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2b2.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
