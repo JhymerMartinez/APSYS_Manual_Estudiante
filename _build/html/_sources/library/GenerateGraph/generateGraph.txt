@@ -4,14 +4,14 @@
 Generación de gráficas
 **********************
 
-Las gráficas dan una visión clara al estudiante sobre como va su desempeño académico actual y futuro mediante graficas de predicción.
+Dan una visión clara al estudiante sobre como va su desempeño académico actual y futuro mediante gráficas de predicción.
 
 .. _generateGraph-graphics_ok:
 
-Generación correcta de gráficas
-===============================
+Proceso para generación de gráficas
+===================================
 
-Una vez que se ha seleccionado el modulo sobre el cual se desean recuperar datos (ver :ref:`selectModule-title`) el sistema presenta la vista de generación de gráficas como se aprecia en la imagen
+Una vez que se ha seleccionado el módulo sobre el cual se desean recuperar datos (ver :ref:`selectModule-title`) el sistema presenta la vista de generación de gráficas como se aprecia en la imagen
 
 .. _generateGraph-img-generateGraph_no_graphics:
 
@@ -22,7 +22,7 @@ Una vez que se ha seleccionado el modulo sobre el cual se desean recuperar datos
 
     **Vista para generación de gráficas**
 
-En primera instancia la sección de gráficas se encuentra vacía por lo que es necesario seleccionar una materia para presentar las gráficas de desempeño y predicción. En la siguiente imagen se describe de manera visual, el proceso a seguir para la generación de gráficas y generación de calificaciones predictivas 
+En primera instancia la sección de gráficas se encuentra vacía por lo que es necesario seleccionar una materia para presentar las gráficas de desempeño y predicción. En la siguiente imagen se describe de manera visual, el proceso a seguir.
 
 .. _generateGraph-img-generateGraph_proccess_graphics:
 
@@ -40,35 +40,33 @@ Cabe resaltar que se generan gráficas para cada uno de los parámetros de calif
 	Para conseguir información detallada de las calificaciones reales obtenidas hasta la fecha ir al apartado :ref:`qualificationDetail-title`
 
 
-.. _generateGraph-graphics_error:
+.. _generateGraph-graphics_more_info:
 
-Posibles notificaciones para el estudiante
-==========================================
+Información adicional y promedios
+=================================
 
-Para la generación de graficas se necesita que el docente haya subido al sistema al menos un aporte. Caso contrario se presentara un mensaje especificado por qué no se presentan gráficas
+Una vez generadas las gráficas y justo debajo de las mismas, se presentan una opción desplegable con información adicional referente a los datos presentados. En primera instancia se detalla la lista de calificaciones generadas por el sistema junto a las cuales se presenta una fecha tentativa en la cual se puede evaluar dicho parámetro como se aprecia a continuación:
 
-.. _generateGraph-img-generateGraph_no_data:
+.. _generateGraph-img-generateGraph_table_qualification:
 
-.. figure:: ../../_static/GenerateGraph/generateGraph_no_data.png 
+.. figure:: ../../_static/GenerateGraph/generateGraph_table_qualification.png 
     :align: center
-    :alt: Notificación por falta de calificación inicial
+    :alt: Tabla de calificaciones predictivas
     :figclass: align-center
 
-    **Notificación por falta de calificación inicial**
+    **Tabla de calificaciones predictivas**
 
 
-Puede darse el caso de que el promedio de calificaciones obtenidas por el estudiante sea demasiado bajo para generar una gráfica predictiva que permita superar el mínimo posible (70 % de la nota). Para este caso se alertará al estudiante con un mensaje de notificación.
+El siguiente componente es un botón que al hacerle clic presenta un cuadro de dialogo con información relacionada con promedios tanto para calificaciones actuales como para las predicciones realizadas por el sistema. A más de estos datos se presenta una pequeña conclusión acorde a su promedio en base a una escala que permite medir el grado de conocimientos alcanzados por el estudiante (para más información seguir el `siguiente enlace <http://www.educar.ec/servicios/regla_loei-6.html>`_.) como se aprecia en la imagen siguiente: 
 
-.. _generateGraph-img-generateGraph_low_rating:
+.. _generateGraph-img-generateGraph_dialog_final:
 
-.. figure:: ../../_static/GenerateGraph/generateGraph_low_rating.png 
+.. figure:: ../../_static/GenerateGraph/generateGraph_dialog_final.png 
     :align: center
-    :alt: Notificación por calificaciones bajas
+    :alt: Cuadro de diálogo con información adicional
     :figclass: align-center
 
-    **Notificación por calificaciones bajas**
+    **Cuadro de diálogo con información adicional**
 
-
- 
 .. note::
-	Para conseguir información detallada de las calificaciones reales obtenidas hasta la fecha se debe seleccionar el enlace **Mis calificaciones actualmente**. Para má información ir al apartado :ref:`qualificationDetail-title`
+	Para conseguir información detallada de las calificaciones reales obtenidas hasta la fecha se debe seleccionar el botón **Ver mis calificaciones actuales**. Para más información ir al apartado :ref:`qualificationDetail-title`

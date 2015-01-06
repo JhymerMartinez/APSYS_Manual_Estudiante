@@ -28,3 +28,5 @@ Como se aprecia en la imagen, se despliegan los siguientes campos:
 	• **Módulo.-** El módulo y paralelo al cual pertenece el estudiante.
 
 
+
+Una vez generadas las gráficas y justo debajo de las mismas, se presentan una opción El siguiente paso es la :ref:`generateGraph-title` de acuerdo a la materia seleccionada 
