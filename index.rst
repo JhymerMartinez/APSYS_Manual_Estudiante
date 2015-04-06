@@ -24,7 +24,9 @@ A continuación se presenta la lista de contenidos:
    /library/SystemAccess/systemAccess.rst
    /library/SelectModule/selectModule.rst
    /library/GenerateGraph/generateGraph.rst
+   /library/Factors/factors.rst
    /library/QualificationDetail/qualificationDetail.rst
+   /library/LibraryHelp/libraryHelp.rst
 
 
 

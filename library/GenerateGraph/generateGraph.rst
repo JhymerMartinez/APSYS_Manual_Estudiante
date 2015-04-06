@@ -40,33 +40,43 @@ Cabe resaltar que se generan gráficas para cada uno de los parámetros de calif
 	Para conseguir información detallada de las calificaciones reales obtenidas hasta la fecha ir al apartado :ref:`qualificationDetail-title`
 
 
+.. _generateGraph-graphics_prediction:
+
+Predicción
+==========
+
+Una vez generadas las gráficas, se aprecia una pestaña denominada predicción la cual presenta de una manera textual y más clara la calificación que ha generado el sistema:
+
+.. _generateGraph-img-generateGraph_prediction:
+
+.. figure:: ../../_static/GenerateGraph/generateGraph_prediction.png 
+    :align: center
+    :alt: Calificación predictiva
+    :figclass: align-center
+
+    **Calificación predictiva**
+
+Para realizar la predicción se utiliza información relacionada con las calificaciones previamente obtenidas y los factores que influyen en el rendimiento académico configurados por el estudiante (ver aparatado :ref:`factors-title`)
+
+
 .. _generateGraph-graphics_more_info:
 
-Información adicional y promedios
-=================================
+Mas información
+===============
 
-Una vez generadas las gráficas y justo debajo de las mismas, se presentan una opción desplegable con información adicional referente a los datos presentados. En primera instancia se detalla la lista de calificaciones generadas por el sistema junto a las cuales se presenta una fecha tentativa en la cual se puede evaluar dicho parámetro como se aprecia a continuación:
+Esta opción presenta detalles sobre el promedio parcial en determinado parámetro a más de una conclusión tomada de la actual `ley de educación <http://www.educar.ec/servicios/regla_loei-6.html>`_.
 
-.. _generateGraph-img-generateGraph_table_qualification:
 
-.. figure:: ../../_static/GenerateGraph/generateGraph_table_qualification.png 
+
+.. _generateGraph-img-graphics_more_info:
+
+.. figure:: ../../_static/GenerateGraph/generateGraph_more_info.png 
     :align: center
-    :alt: Tabla de calificaciones predictivas
+    :alt: Calificación predictiva
     :figclass: align-center
 
-    **Tabla de calificaciones predictivas**
+    **Calificación predictiva**
 
-
-El siguiente componente es un botón que al hacerle clic presenta un cuadro de dialogo con información relacionada con promedios tanto para calificaciones actuales como para las predicciones realizadas por el sistema. A más de estos datos se presenta una pequeña conclusión acorde a su promedio en base a una escala que permite medir el grado de conocimientos alcanzados por el estudiante (para más información seguir el `siguiente enlace <http://www.educar.ec/servicios/regla_loei-6.html>`_.) como se aprecia en la imagen siguiente: 
-
-.. _generateGraph-img-generateGraph_dialog_final:
-
-.. figure:: ../../_static/GenerateGraph/generateGraph_dialog_final.png 
-    :align: center
-    :alt: Cuadro de diálogo con información adicional
-    :figclass: align-center
-
-    **Cuadro de diálogo con información adicional**
 
 .. note::
 	Para conseguir información detallada de las calificaciones reales obtenidas hasta la fecha se debe seleccionar el botón **Ver mis calificaciones actuales**. Para más información ir al apartado :ref:`qualificationDetail-title`
