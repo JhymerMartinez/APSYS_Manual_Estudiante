@@ -96,8 +96,9 @@
   <ul class="dropdown-menu localtoc"><ul>
 <li><a class="reference internal" href="#">4. Generación de gráficas</a><ul>
 <li><a class="reference internal" href="#proceso-para-generacion-de-graficas">4.1. Proceso para generación de gráficas</a></li>
-<li><a class="reference internal" href="#prediccion">4.2. Predicción</a></li>
-<li><a class="reference internal" href="#mas-informacion">4.3. Mas información</a></li>
+<li><a class="reference internal" href="#estructura-de-las-graficas">4.2. Estructura de las gráficas</a></li>
+<li><a class="reference internal" href="#prediccion">4.3. Predicción</a></li>
+<li><a class="reference internal" href="#mas-informacion">4.4. Mas información</a></li>
 </ul>
 </li>
 </ul>
@@ -167,8 +168,31 @@
 <p class="last">Para conseguir información detallada de las calificaciones reales obtenidas hasta la fecha ir al apartado <a class="reference internal" href="../QualificationDetail/qualificationDetail.html#qualificationdetail-title"><em>Calificaciones y promedios finales</em></a></p>
 </div>
 </div>
+<div class="section" id="estructura-de-las-graficas">
+<span id="generategraph-graphics-structure"></span><h2>4.2. Estructura de las gráficas<a class="headerlink" href="#estructura-de-las-graficas" title="Permalink to this headline">¶</a></h2>
+<p>Como se aprecia en la imagen siguiente se utilizan gráficas de líneas que tiene una relación entre tiempo académico y calificación del estudiante para medir visualmente el avance.</p>
+<div class="align-center figure" id="generategraph-img-generategraph-graph-example">
+<img alt="Ejemplo de gráfica generada" src="../../_images/generateGraph_graph_example.png" />
+<p class="caption"><strong>Ejemplo de gráfica generada</strong></p>
+</div>
+<p>La línea que indica como avanza el desempeño académico del estudiante (color verde) se basa en calificaciones reales obtenidas por el mismo y que ya han sido subidas al sistema por el docente en distintas fechas.</p>
+<div class="align-center figure" id="generategraph-img-generategraph-graph-info-complete">
+<img alt="Gráfica rendimiento y predicción 1" src="../../_images/generateGraph_graph_info_complete.png" />
+<p class="caption"><strong>Gráfica rendimiento y predicción 1</strong></p>
+</div>
+<p>La siguiente línea es para la calificación que predice el sistema (color celeste) y su relación con respecto a las actuales a más de una fecha tentativa en la cual se podría llevar a cabo dicho aporte.</p>
+<div class="align-center figure" id="generategraph-img-generategraph-graph-info-complete2">
+<img alt="Gráfica rendimiento y predicción 2" src="../../_images/generateGraph_graph_info_complete2.png" />
+<p class="caption"><strong>Gráfica rendimiento y predicción 2</strong></p>
+</div>
+<p>Para mayor información se puede pasar el cursor sobre cada punto como se aprecia en la imagen:</p>
+<div class="align-center figure" id="generategraph-img-generategraph-graph-more-info">
+<img alt="Más información en gráficas" src="../../_images/generateGraph_graph_more_info.png" />
+<p class="caption"><strong>Más información en gráficas</strong></p>
+</div>
+</div>
 <div class="section" id="prediccion">
-<span id="generategraph-graphics-prediction"></span><h2>4.2. Predicción<a class="headerlink" href="#prediccion" title="Permalink to this headline">¶</a></h2>
+<span id="generategraph-graphics-prediction"></span><h2>4.3. Predicción<a class="headerlink" href="#prediccion" title="Permalink to this headline">¶</a></h2>
 <p>Una vez generadas las gráficas, se aprecia una pestaña denominada predicción la cual presenta de una manera textual y más clara la calificación que ha generado el sistema:</p>
 <div class="align-center figure" id="generategraph-img-generategraph-prediction">
 <img alt="Calificación predictiva" src="../../_images/generateGraph_prediction.png" />
@@ -177,7 +201,7 @@
 <p>Para realizar la predicción se utiliza información relacionada con las calificaciones previamente obtenidas y los factores que influyen en el rendimiento académico configurados por el estudiante (ver aparatado <a class="reference internal" href="../Factors/factors.html#factors-title"><em>Factores de predicción</em></a>)</p>
 </div>
 <div class="section" id="mas-informacion">
-<span id="generategraph-graphics-more-info"></span><h2>4.3. Mas información<a class="headerlink" href="#mas-informacion" title="Permalink to this headline">¶</a></h2>
+<span id="generategraph-graphics-more-info"></span><h2>4.4. Mas información<a class="headerlink" href="#mas-informacion" title="Permalink to this headline">¶</a></h2>
 <p>Esta opción presenta detalles sobre el promedio parcial en determinado parámetro a más de una conclusión tomada de la actual <a class="reference external" href="http://www.educar.ec/servicios/regla_loei-6.html">ley de educación</a>.</p>
 <div class="align-center figure" id="generategraph-img-graphics-more-info">
 <img alt="Calificación predictiva" src="../../_images/generateGraph_more_info.png" />

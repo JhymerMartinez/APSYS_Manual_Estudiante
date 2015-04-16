@@ -40,6 +40,57 @@ Cabe resaltar que se generan gráficas para cada uno de los parámetros de calif
 	Para conseguir información detallada de las calificaciones reales obtenidas hasta la fecha ir al apartado :ref:`qualificationDetail-title`
 
 
+.. _generateGraph-graphics_structure:
+
+Estructura de las gráficas
+==========================
+
+Como se aprecia en la imagen siguiente se utilizan gráficas de líneas que tiene una relación entre tiempo académico y calificación del estudiante para medir visualmente el avance.
+
+.. _generateGraph-img-generateGraph_graph_example:
+
+.. figure:: ../../_static/GenerateGraph/generateGraph_graph_example.png 
+    :align: center
+    :alt: Ejemplo de gráfica generada
+    :figclass: align-center
+
+    **Ejemplo de gráfica generada**
+
+La línea que indica como avanza el desempeño académico del estudiante (color verde) se basa en calificaciones reales obtenidas por el mismo y que ya han sido subidas al sistema por el docente en distintas fechas.
+
+.. _generateGraph-img-generateGraph_graph_info_complete:
+
+.. figure:: ../../_static/GenerateGraph/generateGraph_graph_info_complete.png 
+    :align: center
+    :alt: Gráfica rendimiento y predicción 1
+    :figclass: align-center
+
+    **Gráfica rendimiento y predicción 1**
+
+La siguiente línea es para la calificación que predice el sistema (color celeste) y su relación con respecto a las actuales a más de una fecha tentativa en la cual se podría llevar a cabo dicho aporte.
+
+.. _generateGraph-img-generateGraph_graph_info_complete2:
+
+.. figure:: ../../_static/GenerateGraph/generateGraph_graph_info_complete2.png 
+    :align: center
+    :alt: Gráfica rendimiento y predicción 2
+    :figclass: align-center
+
+    **Gráfica rendimiento y predicción 2**
+
+Para mayor información se puede pasar el cursor sobre cada punto como se aprecia en la imagen:
+
+.. _generateGraph-img-generateGraph_graph_more_info:
+
+.. figure:: ../../_static/GenerateGraph/generateGraph_graph_more_info.png 
+    :align: center
+    :alt: Más información en gráficas
+    :figclass: align-center
+
+    **Más información en gráficas**
+
+
+
 .. _generateGraph-graphics_prediction:
 
 Predicción
